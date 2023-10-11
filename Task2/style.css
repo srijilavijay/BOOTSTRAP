@@ -1,0 +1,86 @@
+.header
+{
+    border-top: 10px solid rgba(110,83,3,255);
+}
+.navli
+{
+    color: rgba(92,91,91,255);
+}
+.navlnk
+{
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgba(92,91,91,255);
+}
+.navlnk:hover
+{
+    color: rgba(129,50,31,255);
+    border-left: 4px solid rgba(129,50,31,255);
+    font-weight: bolder;
+}
+.scenery
+{
+    background-image: url(./images/scenery_banner.png);
+    height:400px;
+    color:white;
+}
+.scenerycontent
+{
+    padding: 100px;
+    
+}
+.toppara
+{
+    color: rgba(92,91,91,255);
+}
+.explorebtn
+{
+    background-color: rgba(129,50,31,255);
+    color: white;
+    padding: 10px;
+    width: 200px;
+}
+.readmorebtn
+{
+    background-color: rgba(110,83,3,255);
+    color: white;
+    padding: 10px;
+    width: 200px;
+}
+.content
+{
+padding: 50px;
+width: 1300px;
+}
+.building
+{
+    padding:0px 10px 10px 50px;
+    width: 300px;
+    height:325px
+}
+.food
+{
+    padding:0px 10px 10px 0px;
+    width: 280px;
+    height:325px
+}
+.contentcard
+{
+    border: 2px solid white;
+    padding-left: 10px;
+}
+.card-ttle
+{
+    color: rgba(92,91,91,255);
+}
+.footer
+{
+    background-color: rgba(160,32,19,255);
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
