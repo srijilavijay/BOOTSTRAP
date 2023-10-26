@@ -1,0 +1,244 @@
+body
+{
+    margin: 0px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #332D2D;
+    background-color: #fff;
+}
+ul ul{
+    display: none;
+}
+li{
+    position: relative;
+    list-style-type: none;
+}
+li:hover >ul{
+    display: block;
+    z-index: 1;
+    position: absolute;
+}
+
+.btn {
+    position: relative;
+    min-width: 146px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+.btn-primary {
+    color: #fff;
+    background: linear-gradient(95.04deg, #FFAA3F 0.82%, #F35B04 97.35%);
+    border: 0;
+    transition: all .5s;
+}
+.btn-primary:hover, .attFile:hover {
+    background: linear-gradient(95.04deg, #f35b04 0.82%, #F35B04 97.35%);
+}
+.innerbanner
+{
+    margin: 0px;
+    width: 100% ;
+    background-image: url(./images/banner.jpg);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 642px;
+    color: white;
+}
+
+.bannercontent >h1 {
+    font-size: 85px;
+    font-weight: 600;
+    margin: 0px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+.bannercontent >p {
+    font-size: 17px;
+    width:800px;
+    justify-content: center;
+    margin: auto;
+}
+.bannerbtn
+{
+    width: 200px;
+    margin: 5px;
+    font-weight: bold;
+}
+.whatsapp
+{
+    float: right;
+}
+
+.ourprocess
+{
+    margin: auto;
+    padding: 100px;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+    
+}
+.ourprocess >h1
+{
+    font-size: 45px;
+    font-weight: bold;
+}
+.processcontent
+{
+    display: flex;
+    grid-gap: 10px;
+    grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+    
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+}
+.processcontent >div
+{
+    margin: 10px;
+    width: 200px;
+    height: 330px;
+    padding:50px 15px;
+    font-weight: 500;
+    font-size: large;
+    border-radius: 0 3rem 3rem 3rem;
+    
+}
+.processcontent >div >img
+{
+    height: 60px;
+    width: 60px;
+}
+.un
+{
+    background-color: rgba(255,237,237,255);
+}
+.stu
+{
+    background-color: rgba(249,225,238,255);
+}
+.pro{
+    background-color: rgba(194,232,255,255);
+}
+.skill
+{
+    background-color: rgba(187,255,244,255);
+}
+.opp
+{
+    background-color: rgba(231,230,255,255);
+}
+.arrow1
+{
+    position: absolute;
+    top:950px;
+    left: 500px;  
+}
+.arrow1 >img
+{
+    width: 250px;
+}
+.arrow2
+{
+    position: absolute;
+    top:950px;
+    left: 970px;
+    
+}
+.arrow2 >img
+{
+    width: 250px;
+}
+.arrow3
+{
+    position: absolute;
+    top:1325px;
+    left: 300px;
+    
+}
+.arrow3 >img
+{
+    width: 250px;
+}
+.arrow4
+{
+    position: absolute;
+    top:1325px;
+    left: 750px;
+    
+}
+.arrow4 >img
+{
+    width: 250px;
+}
+.choose
+{
+    margin: auto;
+    padding: 100px 250px;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+    background-image: url(./images/pattern.png);
+}
+.choose >h1
+{
+    font-size: 40px;
+    font-weight: bold;
+}
+.choosecontent
+{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 550px 400px;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    
+}
+.choosecontent >div
+{
+    margin: 10px;
+    width: 300px;
+    height: 550px;
+    padding:50px 25px;
+    border-radius: 0 4rem 4rem 4rem;
+    background-color: rgba(255,247,240,255);
+    
+}
+.choosecontent >div:hover
+{
+    border: 3px solid rgba(209,136,136,255);
+}
+.choosecontent >div >img
+{
+    height: 70px;
+    width: 70px;
+
+}
+.choosecontent >div >h4
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.choosecontent >div >p
+{
+    font-size: 18px;
+}
+.footer
+{
+    position: relative;
+    height: 100px;
+    background-color: #FFAA3F;
+}
